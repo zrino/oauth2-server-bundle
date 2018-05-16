@@ -5,7 +5,12 @@
     "keywords": ["oauth", "oauth2", "security"],
     "homepage": "http://github.com/bshaffer/oauth2-server-bundle",
     "license": "MIT",
-    "authors": [
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/X-Coder264/oauth2-server-php"
+        }
+    ],
+"authors": [
         {
             "name": "Brent Shaffer",
             "email": "bshafs@gmail.com"
@@ -14,7 +19,7 @@
     "minimum-stability":"dev",
     "require": {
         "php": ">=5.3",
-        "bshaffer/oauth2-server-php": ">=1.0",
+        "bshaffer/oauth2-server-php":"dev-make-the-response-interface-symfony-4-compliant",
         "bshaffer/oauth2-server-httpfoundation-bridge": "^1.2"
     },
     "require-dev": {
